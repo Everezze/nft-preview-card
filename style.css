@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit";
+    padding: 2rem 1rem;
+    margin: 0;
+    background: hsl(217, 54%, 11%);
+}
+
+main{
+    padding: 1.25rem;
+    max-width: 325px;
+    overflow: hidden;
+    background: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    color: hsl(215,51%,70%);
+    margin: 0 auto;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1,h2,p{
+    margin:0;
+}
+
+.equilibrium{
+    width:100%;
+    border-radius: 1rem;
+}
+
+aside{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding: 1rem 0 0;
+}
+
+aside h2{
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: middle;
+    margin-left:1rem;
+}
+
+h1,h2 b{
+    color: white;
+}
+
+aside img{
+    width:30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+article{
+    margin:1rem 0 0;
+}
+
+article> *+*{
+    margin-top: 1.5rem;
+}
+
+.infos{
+    text-align-last: justify;
+}
+
+.infos span{
+    display: inline-block;
+}
+
+.infos span *{
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+
+p{
+    font-size: 1.05rem;
+}
+
+.infos b{
+    margin-left:.25rem;
+}
+
+.infos span:first-child{
+    color:hsl(178, 100%, 50%);
+}
