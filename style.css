@@ -89,3 +89,38 @@ p{
 .infos span:first-child{
     color:hsl(178, 100%, 50%);
 }
+
+h1:hover,aside b:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+main>div{
+    position:relative;
+}
+
+main>div:hover .view{
+    display: block;
+}
+
+.view{
+    position: absolute;
+    inset: 0;
+    background:hsla(178, 100%, 50%,40%);
+    display: none;
+    border-radius: 1rem;
+}
+
+.view img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.font400{
+    font-weight: 400;
+}
+
+.light-font{
+    font-weight: lighter;
+}
